@@ -1,3 +1,0 @@
-# Alisa
-
-Application for Alisa
