@@ -13,16 +13,32 @@
         android:theme="@style/Theme.AlisaApplication"
         tools:targetApi="31">
         <activity
+            android:name=".Fullscreen4Activity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="false"
+            android:label="@string/title_activity_fullscreen4"
+            android:theme="@style/Theme.AlisaApplication.NoActionBar" />
+        <activity
+            android:name=".Fullscreen3Activity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="false"
+            android:label="@string/title_activity_fullscreen3"
+            android:theme="@style/Theme.AlisaApplication.NoActionBar" />
+        <activity
+            android:name=".Fullscreen2Activity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="false"
+            android:label="@string/title_activity_fullscreen2"
+            android:theme="@style/Theme.AlisaApplication.NoActionBar" />
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.AlisaApplication.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
